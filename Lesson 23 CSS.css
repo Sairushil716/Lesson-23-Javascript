@@ -1,0 +1,35 @@
+ #banner h1{
+    
+    width: fit-content;
+    font-size: 100px;
+    color: aliceblue;
+    
+
+  font-family: "Orbitron", sans-serif;
+
+}
+body{
+    background-image: url("techbannner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#banner h3{
+    font-family: "Orbitron", sans-serif;
+    color: aliceblue;
+}
+#carousels{
+    font-family: "Orbitron", sans-serif;
+    color: aliceblue;
+}
+.card {
+    background-color: rgb(255, 162, 0);
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black;
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    display: inline;
+
+}
