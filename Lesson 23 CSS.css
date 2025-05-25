@@ -2,28 +2,31 @@
     
     width: fit-content;
     font-size: 100px;
-    color: aliceblue;
+    color: rgb(0, 75, 141);
     
 
   font-family: "Orbitron", sans-serif;
 
 }
 body{
-    background-image: url("techbannner.jpg");
+ 
         background-repeat: no-repeat;
         background-size: cover;
+        background: linear-gradient(to right, #494949, #000000);
+
 }
 #banner h3{
     font-family: "Orbitron", sans-serif;
-    color: aliceblue;
+    color: rgb(0, 75, 141);
 }
 #carousels{
     font-family: "Orbitron", sans-serif;
-    color: aliceblue;
+    color: rgb(0, 75, 141);
 }
 .card {
     background-color: rgb(255, 162, 0);
-    width: 250px;
+    width: 75%;
+    height: 80%;
     margin: 10px;
     border-radius: 8px;
     box-shadow: 0 2px 5px black;
@@ -31,5 +34,58 @@ body{
     transition: transform 0.2s;
     display: flex;
     display: inline;
+    color: #ffffff;
 
 }
+
+.hero {
+    height: 60vh;
+    background: linear-gradient(to right, #8d0202, #ff7b00);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+   
+    
+}
+#hero1{
+    background-image: url("techbanner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+}
+#hero2{
+    background-image: url("techbanner2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+}
+#hero3{
+    background-image: url("techbanner3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #ffffff;
+}
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h1 {
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+}
+
